@@ -2,19 +2,18 @@
 
 The StateService supply service for GetAllStateInfo and GetStateInfo via StateCode. The following have the steps for build, deploy.
 
-## Build
+## Start
 
-Maven build commands:
+Execute mvn build command
 
 ~~~
 mvn clean install
 ~~~
 
-will generate deployment jar `StateService.jar`.
+will generate runnable jar `stateService-1.0-swarm.jar`, start StateService via
 
-## Deploy
+~~~
+java -jar stateService-1.0-swarm.jar
+~~~
 
-Deploy `StateService.jar` to a running JBoss server(Assume JBoss EAP 6 run on localhost).
-
-Once deployed finised, StateService WSDL File can be viewed via [http://localhost:8080/StateService/stateService/StateServiceImpl?WSDL](http://localhost:8080/StateService/stateService/StateServiceImpl?WSDL)
-
+NOTE: WSDL can be find through `http://localhost:8080/stateService?wsdl`

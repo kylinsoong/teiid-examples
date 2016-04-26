@@ -35,6 +35,13 @@
 			<artifactId>connector-ws</artifactId>
 			<version>${version.teiid}</version>
 		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.ws.xmlschema</groupId>
+			<artifactId>xmlschema-core</artifactId>
+			<version>2.2.1</version>
+		</dependency>
+		
             
 	</dependencies>
 	

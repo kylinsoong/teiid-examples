@@ -6,22 +6,17 @@ Maven build commands:
 mvn clean install
 ~~~
 
-will generate `customer-swarm.jar` and `customer.war` under target folder.
+will generate `customer-swarm.jar` under target folder.
 
 ## Start
 
-### Run runnable `customer-swarm.jar`
+Run runnable `customer-swarm.jar`
 
 ~~~
 java -jar customer-swarm.jar
 ~~~
 
-### Deploy to JBoss
-
-Deploy `customer.war` to a running JBoss server(Assume JBoss EAP 6 run on localhost).
-
-
-## Available API Test
+Available API Test
 
 | **Name** | **API** |
 |:---------|:--------|
